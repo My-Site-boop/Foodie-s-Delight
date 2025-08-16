@@ -1,0 +1,99 @@
+ #box{
+ position: relative;
+    top: 7px;
+  left:270px;
+   }
+   #sc { 
+       display: inline-block;
+        border: 2px solid white;
+       background-color: white;
+    height: 38px;
+    width: 300px;
+       
+    }
+    #search-bar{
+      
+     background-color: none;
+        border: none;
+        outline: none;
+        height:35px;
+          width: 86%;
+        background-color: white;
+        
+       
+    } #icon{
+    border: 2px solid white;
+        height:38px;
+        background-color:white;
+        color: lightseagreen;
+
+        position: relative;
+        padding-top: 5px;
+        top:-7px;
+    }#icon1{
+           border: 2px solid white;
+        background-color:white;
+        height:38px;
+         position: relative;
+        padding-top: 5px;
+        top: 12px;
+    }
+    
+    #dox{
+        display: none;
+        outline: none;
+        border: none;
+        font-size: 5px;
+        background-color: white;
+        color: black;
+    }
+    .navbar-nav .nav-link {
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #ffc107 !important;
+      transform: translateY(-2px);
+    }
+
+    @media (min-width: 992px) {
+      .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+        animation: fadeIn 0.3s ease-in-out;
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .carousel-caption {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 1rem;
+      border-radius: 10px;
+    }
+
+    .food-card img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .food-card {
+      transition: transform 0.3s ease;
+    }
+
+    .food-card:hover {
+      transform: scale(1.05);
+    }
+    
+    #bt{
+        border: 1px solid white;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+    }#si{
+           border: 1px solid white;
+    }
+    
+  

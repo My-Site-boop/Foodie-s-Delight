@@ -1,0 +1,17 @@
+ .food-card img {
+      height: 180px;
+      object-fit: cover;
+    }
+    .star-rating i {
+      color: #ffc107;
+    }
+    .food-icon {
+      font-size: 1.4rem;
+      color: #dc3545;
+      margin-right: 8px;
+    }
+   
+      .card:hover {
+      transform: scale(1.02);
+      transition: transform 0.3s ease;
+    }

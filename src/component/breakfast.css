@@ -1,0 +1,19 @@
+
+    .breakfast-card img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .breakfast-card {
+      transition: transform 0.3s ease;
+    }
+
+    .breakfast-card:hover {
+      transform: scale(1.03);
+    }
+
+   
+
+    .star-rating  {
+      color: #ffc107;
+    }
