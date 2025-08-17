@@ -5,12 +5,12 @@ export default function Lunch() {
   return (
     <>
      
-<div className="container py-5">
+<div className="container py-5"> 
   <h2 className="text-center mb-4">🍱 Lunch Menu</h2>
   <div className="row g-4">
 
     {/* <!-- Item 1 --> */}
-    <div className="col-md-4">
+    <div className="col-md-4" id="burger-section">
       <div className="card food-card">
         <img src="https://i.pinimg.com/originals/b6/51/c4/b651c473c595f728118644568221637e.jpg" className="card-img-top" alt="Burger" />
         <div className="card-body">
@@ -25,7 +25,7 @@ export default function Lunch() {
     </div>
 
     {/* <!-- Item 2--> */}
-    <div className="col-md-4">
+    <div className="col-md-4" id="pizza-section">
       <div className="card food-card">
         <img src="https://www.zorabian.com/wp-content/uploads/2022/12/Homemade-Pepperoni-Pizza-1.jpg" className="card-img-top" alt="Pizza" />
         <div className="card-body">
