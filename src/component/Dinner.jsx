@@ -10,7 +10,7 @@ export default function Dinner() {
 
     {/* <!-- Item 1--> */}
     <div class="col-md-4">
-      <div class="card food-card">
+      <div class="card food-card" id="grilled-steak">
         <img src="https://www.foodfood.com/wp-content/uploads/2024/04/banner-card01.png" class="card-img-top" alt="Grilled Steak" />
         <div class="card-body">
           <h5 class="card-title"><i class="fas fa-drumstick-bite food-icon"></i>Grilled Steak</h5>
@@ -24,7 +24,7 @@ export default function Dinner() {
     </div>
 
     {/* <!-- Item 2--> */}
-    <div class="col-md-4">
+    <div class="col-md-4" id="pasta-section">
       <div class="card food-card">
         <img src="https://img.freepik.com/free-photo/plate-fettuccine-alfredo-with-fresh-parsley_9975-124881.jpg" class="card-img-top" alt="Creamy Pasta" />
         <div class="card-body">
@@ -54,7 +54,7 @@ export default function Dinner() {
     </div>
 
     {/* <!-- Item 4--> */}
-    <div class="col-md-4">
+    <div class="col-md-4" id="paneer -section">
       <div class="card food-card">
         <img src="https://www.cubesnjuliennes.com/wp-content/uploads/2020/02/Matar-Paneer.jpg" class="card-img-top" alt="Paneer Curry" />
         <div class="card-body">
@@ -84,7 +84,7 @@ export default function Dinner() {
     </div>
 
    {/* <!-- Item 6 --> */}
-    <div class="col-md-4">
+    <div class="col-md-4" id="dessert-section">
       <div class="card food-card">
         <img src="https://www.foodfood.com/wp-content/uploads/2024/04/banner-card04.png" class="card-img-top" alt="Gulab Jamun" />
         <div class="card-body">
