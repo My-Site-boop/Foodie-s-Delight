@@ -3,13 +3,13 @@ import React from 'react'
 export default function Breakfast() {
   return (
     <>
-    <section className="py-5 bg-light">
+    <section className="py-5 bg-light" id="pizza-section">
   <div className="container">
     <h2 className="text-center mb-5">🍳 Breakfast Delights</h2>
     <div className="row g-4">
 
      {/* <!-- Card Example -->*/}
-      <div className="col-md-4">
+      <div className="col-md-4" id="fluffy-pancakes">
         <div className="card breakfast-card shadow-sm">
           <img src="https://www.shutterstock.com/image-photo/healthy-summer-breakfast-homemade-classNameic-260nw-2596098851.jpg" className="card-img-top" alt="Pancakes"/>
           <div className="card-body">
@@ -29,7 +29,7 @@ export default function Breakfast() {
       </div>
 
     {/*  <!-- Repeat for other items -->*/}
-      <div className="col-md-4">
+      <div className="col-md-4" id="cheese-omelette">
         <div className="card breakfast-card shadow-sm">
           <img src="https://garlicallday.com/wp-content/uploads/cheese-egg-white-omelette-on-rectangular-plate.jpg" className="card-img-top" alt="Omelette"/>
           <div className="card-body">
