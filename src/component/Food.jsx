@@ -40,11 +40,11 @@ export default function Food() {
 
 {/*<!-- Food Items Section -->*/}
 <section className="py-5 bg-light">
-  <div className="container">
+  <div className="container" >
     <h2 className="text-center mb-4">🍔 Featured Dishes</h2>
     <div className="row g-4">
 
-      <div className="col-md-4" id="section-1">
+      <div className="col-md-4"  id="pizza-section">
         <div className="card food-card shadow-sm">
             <NavLink to="/lunch">  <img src="https://www.foodfood.com/wp-content/uploads/2024/04/banner-card02.png" className="card-img-top" alt="Pasta"/> </NavLink>
           <div className="card-body">
@@ -54,7 +54,7 @@ export default function Food() {
         </div>
       </div>
 
-      <div className="col-md-4">
+      <div className="col-md-4" id="sushi-platter">
         <div className="card food-card shadow-sm">
             <NavLink to="/lunch">   <img src="https://images.unsplash.com/photo-1546069901-eacef0df6022" className="card-img-top" alt="Sushi"/></NavLink>
           <div className="card-body">
@@ -64,7 +64,7 @@ export default function Food() {
         </div>
       </div>
 
-      <div className="col-md-4">
+      <div className="col-md-4" id="grilled-steak">
         <div className="card food-card shadow-sm">
             <NavLink to="/dinner">   <img src="https://www.foodfood.com/wp-content/uploads/2024/04/banner-card01.png" className="card-img-top" alt="Steak"/> </NavLink>
           <div className="card-body">
@@ -79,7 +79,7 @@ export default function Food() {
       
    <div className="row g-4">
 
-      <div className="col-md-4">
+      <div className="col-md-4" id="pasta-section">
         <div className="card food-card shadow-sm">
             <NavLink to="/dinner">   <img src="https://img.freepik.com/free-photo/plate-fettuccine-alfredo-with-fresh-parsley_9975-124881.jpg" className="card-img-top" alt="Pasta"/> </NavLink>
           <div className="card-body">
@@ -89,7 +89,7 @@ export default function Food() {
         </div>
       </div>
 
-      <div className="col-md-4">
+      <div className="col-md-4" id="dessert-section">
        <div className="card food-card shadow-sm">
           <NavLink to="/dinner"> <img src="https://www.foodfood.com/wp-content/uploads/2024/04/banner-card04.png" className="card-img-top" alt="Sushi"/></NavLink>
           <div className="card-body">
@@ -99,7 +99,7 @@ export default function Food() {
         </div>
       </div>
 
-      <div className="col-md-4">
+      <div className="col-md-4" id="main-mail">
          <div className="card food-card shadow-sm">
         <NavLink to="/dinner">  <img src="https://hips.hearstapps.com/hmg-prod/images/summer-dinner-recipes-mediterranean-chicken-6838cbef9d151.png?crop=1xw:1xh;center,top&resize=980:*" className="card-img-top" alt="Steak"/> </NavLink>
           <div className="card-body">
